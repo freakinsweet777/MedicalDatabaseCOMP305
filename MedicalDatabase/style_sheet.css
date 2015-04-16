@@ -1,0 +1,188 @@
+#screenContainer {
+  position: absolute;
+  background-color: #81BEF7;
+  width: 99%;
+  height: 99%;
+}
+
+#title {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+  color: #FFA500;
+  height: 10%;
+  width: 99%;
+  border: 2%;
+  border-style: solid;
+  border-color: blue;
+}
+
+#patientsSearchbar {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 30%;
+  width: 10%;
+  left: 66%;
+  top: 35%;
+}
+
+#patientsSearchButton {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 30%;
+  width: 10%;
+  left: 88%;
+  top: 36%;
+}
+
+#logoutButton {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 30%;
+  width: 7%;
+  left: 93%;
+  top: 36%;
+}
+
+#sidebarContainer {
+  position: absolute;
+  background-color: #FFA500;
+  font-family: 'Tahoma';
+  font-size: 14px;
+  text-align: center;
+  color: #FFA500;
+  height: 86%;
+  width: 15%;
+  top: 11%;
+  border: 2%;
+  border-style: solid;
+  border-color: blue;
+}
+
+#calendarButton {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 10%;
+  width: 97%;
+  border: 2%;
+  border-style: solid;
+  border-color: #FFA500;
+}
+
+#calendarButton:hover {
+  position: absolute;
+  background-color: #2B99C5;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 10%;
+  width: 97%;
+  border: 2%;
+  border-style: solid;
+  border-color: #FFA500;
+  cursor:hand;
+}
+
+#patientsButton {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 10%;
+  width: 97%;
+  border: 2%;
+  top: 10%;
+  border-style: solid;
+  border-color: #FFA500;
+}
+
+#patientsButton:hover {
+  position: absolute;
+  background-color: #2B99C5;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 10%;
+  width: 97%;
+  border: 2%;
+  top: 10%;
+  border-style: solid;
+  border-color: #FFA500;
+  cursor:hand;
+}
+
+
+#notificationBox {
+  position: absolute;
+  background-color: #00008B;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 29%;
+  width: 97%;
+  border: 2%;
+  border-style: solid;
+  border-color: #FFA500;
+  top:70%;
+}
+
+#contentContainer {
+  position: absolute;
+  background-color: #FFFFFF;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  color: #FFA500;
+  height: 86%;
+  width: 83%;
+  border: 2%;
+  border-style: solid;
+  border-color: #FFA500;
+  top:11.5%;
+  left:15.75%;
+  overflow-y: scroll;
+  padding: 2px;
+}
+
+#loginContent {
+  position: absolute;
+  background-color: #FFFFFF;
+  font-family: 'Tahoma';
+  font-size: 20px;
+  text-align: center;
+  color: #FFA500;
+  height: 30%;
+  width: 40%;
+  border-color: #FFA500;
+  top:35%;
+  left:30%;
+}
+
+#calendar {
+}
+
+button[type="button"] {
+  border: 2px solid;
+  border-radius: 25px;
+  background-color: #FFAA88;
+}
+
+button[type="button"]:hover {
+  border: 2px solid;
+  border-radius: 25px;
+  background-color: #FF0066;
+  cursor:hand;
+}
