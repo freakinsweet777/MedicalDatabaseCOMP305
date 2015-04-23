@@ -37,9 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       Login
     </div>
     <div id="sidebarContainer" name="sidebarContainer">
-      <div id="notificationBox" name="notificationsBox">
-        Notifications
-      </div>
+      
     </div>
     <div id="contentContainer" name="contentContainer">
 
