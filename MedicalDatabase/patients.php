@@ -51,7 +51,30 @@ if ($_SESSION['auth'] == 3){
       </div>
     </div>
     <div id="contentContainer" name="contentContainer">
-      Patients list goes here
+      <?php
+        
+        $patientQuery = "select * from patients;";
+        
+        $result = mysqli_query($con, $patientQuery);
+        
+        if ($result->num_rows > 0) {
+		
+            while($row = $result->fetch_assoc()) {
+                echo "NAME: " . $row["Fname"] . " " . $row["Lname"] . "<br><br>";
+	 	echo "----PATIENT ID: " . $row["patientID"] . "<br>";
+		echo "----ADDRESS: " . $row["streetAddress"] . ", " . $row["city"] . ", " . $row["state"] . ", " . $row["zipcode"] . "<br>";
+		echo "----PHONE NUMBER: " . $row["phone"] . "<br>";
+		echo "----HEIGHT: " . $row["height"] . "<br>";
+		echo "----WEIGHT: " . $row["weight"] . "<br>";
+		echo "----ALLERGIES: " . $row["allergies"] . "<br><br><br>";
+	}
+		
+        } 
+        else {
+            echo "No Patients";
+        }
+        
+        ?>
     </div>
   </div>
 </body>
